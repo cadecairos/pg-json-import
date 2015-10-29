@@ -1,0 +1,35 @@
+{
+  "name": "pg-json-import",
+  "version": "0.0.1",
+  "description": "Import an array of data from a json file into a PostgreSQL table",
+  "main": "lib/pji.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cadecairos/pg-json-import.git"
+  },
+  "keywords": [
+    "postgres",
+    "postgresql",
+    "import",
+    "json"
+  ],
+  "author": "Christopher De Cairos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cadecairos/pg-json-import/issues"
+  },
+  "homepage": "https://github.com/cadecairos/pg-json-import#readme",
+  "dependencies": {
+    "bluebird": "^3.0.2",
+    "command-line-args": "^2.0.4",
+    "jsonfile": "^2.2.3",
+    "knex": "^0.8.6",
+    "pg": "^4.4.3"
+  },
+  "bin": {
+    "pji": "./bin/pji"
+  }
+}
