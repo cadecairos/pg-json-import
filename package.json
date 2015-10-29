@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cadecairos/pg-json-import.git"
+    "url": "https://github.com/cadecairos/pg-json-import.git"
   },
   "keywords": [
     "postgres",
@@ -31,5 +31,9 @@
   },
   "bin": {
     "pji": "./bin/pji"
-  }
+  },
+  "Engines": {
+    "node": ">=4.0.0"
+  },
+  "preferGlobal": true
 }
