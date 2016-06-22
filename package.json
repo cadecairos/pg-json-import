@@ -1,6 +1,6 @@
 {
   "name": "pg-json-import",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Import an array of data from a json file into a PostgreSQL table",
   "main": "lib/pji.js",
   "scripts": {
