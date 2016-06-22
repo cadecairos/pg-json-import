@@ -23,10 +23,9 @@
   },
   "homepage": "https://github.com/cadecairos/pg-json-import#readme",
   "dependencies": {
+    "JSONStream": "^1.1.2",
     "command-line-args": "^3.0.0",
     "command-line-usage": "^3.0.1",
-    "jsonfile": "^2.3.1",
-    "knex": "^0.11.7",
     "pg": "^6.0.0",
     "pg-format": "^1.0.2"
   },
